@@ -39,6 +39,6 @@ let s:p.normal.warning  = [ [ s:base07, s:base09 ] ]
 let s:p.tabline.left    = [ [ s:base05, s:base02 ] ]
 let s:p.tabline.middle  = [ [ s:base05, s:base01 ] ]
 let s:p.tabline.right   = [ [ s:base05, s:base02 ] ]
-let s:p.tabline.tabsel  = [ [ s:base02, s:base0A ] ]
+let s:p.tabline.tabsel  = [ [ s:base02, s:base05 ] ]
 
 let g:lightline#colorscheme#toasty#palette = lightline#colorscheme#flatten(s:p)
